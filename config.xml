@@ -3,7 +3,7 @@
     xmlns:gap   = "http://phonegap.com/ns/1.0"
     id          = "com.fortuneod.alien"
     versionCode = "10"
-    version     = "1.0.0" >
+    version     = "1.0.1" >
 
 <!-- versionCode is optional and Android only -->
 
@@ -13,7 +13,7 @@
       Simple HTML5 Game
   </description>
     
-  <icon src="images/sprites.png" width="75" height="75" density="mdpi" />
+  <icon src="images/alien.png" width="75" height="75" density="mdpi" />
 
   <author href="http://gradenetnigeria.com" email="fortuneodesanya@gmail.com">
       Fortune Odesanya
