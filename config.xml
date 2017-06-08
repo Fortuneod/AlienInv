@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<widget xmlns   = "http://www.w3.org/ns/widgets"
+    xmlns:gap   = "http://phonegap.com/ns/1.0"
+    id          = "com.fortuneod.alien"
+    versionCode = "10"
+    version     = "1.0.0" >
+
+<!-- versionCode is optional and Android only -->
+
+  <name>Alien Invasion</name>
+
+  <description>
+      Simple HTML5 Game
+  </description>
+    
+  <icon src="images/sprites.png" width="75" height="75" density="mdpi" />
+
+  <author href="http://gradenetnigeria.com" email="fortuneodesanya@gmail.com">
+      Fortune Odesanya
+  </author>
+
+</widget>
