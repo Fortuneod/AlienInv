@@ -162,7 +162,7 @@ var SpriteSheet = new function() {
   return this;
 };
 
-var TitleScreen = function TitleScreen(title,subtitle,callback) {
+var TitleScreen = function TitleScreen(title,subtitle,direct,callback) {
   var up = false;
   this.step = function(dt) {
     if(!Game.keys['fire']) up = true;
@@ -179,6 +179,10 @@ var TitleScreen = function TitleScreen(title,subtitle,callback) {
     ctx.font = "bold 20px bangers";
     var measure2 = ctx.measureText(subtitle);
     ctx.fillText(subtitle,Game.width/2 - measure2.width/2,Game.height/2 + 40);
+    
+    ctx.font = "bold 20px bangers";
+    var measure2 = ctx.measureText(direct);
+    ctx.fillText(subtitle,Game.width/2 - measure2.width/2,Game.height/2 + 80);
   };
 };
 
