@@ -181,7 +181,7 @@ var TitleScreen = function TitleScreen(title,subtitle,direct,callback) {
     ctx.fillText(subtitle,Game.width/2 - measure2.width/2,Game.height/2 + 40);
     
     ctx.font = "bold 20px bangers";
-    var measure2 = ctx.measureText(direct);
+    var measure3 = ctx.measureText(direct);
     ctx.fillText(subtitle,Game.width/2 - measure2.width/2,Game.height/2 + 80);
   };
 };
